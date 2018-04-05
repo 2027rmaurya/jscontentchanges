@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>	
+     <title>welcome in javascript!!</title>
+     <script type="text/javascript">
+
+      function demo(){
+var myValue=document.getElementById("menu").value;
+var butto=document.getElementById("sub");
+      if(myValue.length==0){
+      alert("enter the name basturd!!!") ;
+       return;
+       }
+butto.innerHTML=myValue;
+    }
+
+   </script>
+</head>		
+<body style="background-color:#ee0eee"  onload="alert('Welcome in fun world')">
+
+     <h1 >welcome in javascript!!</h1>
+  
+     <input type="text" id ="menu" required autofocus></input>
+     <input type="submit"  value="submit" onclick="demo()"></input>
+      <h1 color:green id="sub"> Ramashish Maurya</h1>
+</body>
+</html>
